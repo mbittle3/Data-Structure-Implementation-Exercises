@@ -10,7 +10,7 @@ package standardListNode;
 public class MyListStack<AnyType> {
 
     // header node - variable to keep track of the top element of stack
-    private ListNode<AnyType> stackTop = null;
+    private ListNode<AnyType> stackTop;
 
     // ***CONSTRUCTOR *** \\
     public MyListStack() {
